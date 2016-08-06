@@ -1,0 +1,449 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3E433A6E1D534BBC00C39913 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E433A6D1D534BBC00C39913 /* main.m */; };
+		3E433A711D534BBC00C39913 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E433A701D534BBC00C39913 /* AppDelegate.m */; };
+		3E433A741D534BBC00C39913 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E433A731D534BBC00C39913 /* ViewController.m */; };
+		3E433A771D534BBC00C39913 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E433A751D534BBC00C39913 /* Main.storyboard */; };
+		3E433A791D534BBC00C39913 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3E433A781D534BBC00C39913 /* Assets.xcassets */; };
+		3E433A7C1D534BBC00C39913 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E433A7A1D534BBC00C39913 /* LaunchScreen.storyboard */; };
+		3E433AA91D542A7B00C39913 /* RxStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E433AA51D542A7B00C39913 /* RxStore.m */; };
+		3E433AAC1D542AB600C39913 /* NSArray+Redux.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E433AAB1D542AB600C39913 /* NSArray+Redux.m */; };
+		3E433AB51D546B7E00C39913 /* RTCounterState.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E433AB41D546B7E00C39913 /* RTCounterState.m */; };
+		3E433AB81D546C6000C39913 /* RTCounterReducer.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E433AB71D546C6000C39913 /* RTCounterReducer.m */; };
+		3E433ABB1D546DF200C39913 /* RTCounterAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E433ABA1D546DF200C39913 /* RTCounterAction.m */; };
+		3E433ABE1D54722900C39913 /* RTAppState.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E433ABD1D54722900C39913 /* RTAppState.m */; };
+		3E433AC11D54730D00C39913 /* RTAppReducer.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E433AC01D54730D00C39913 /* RTAppReducer.m */; };
+		3E433AC61D547DB800C39913 /* RTLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E433AC51D547DB800C39913 /* RTLogger.m */; };
+		3E433AC91D54809D00C39913 /* RTRecorder.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E433AC81D54809D00C39913 /* RTRecorder.m */; };
+		3E46E8DA1D561BF400E2917F /* NSDictionary+Redux.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E46E8D91D561BF400E2917F /* NSDictionary+Redux.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3E433A691D534BBC00C39913 /* Redux.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Redux.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E433A6D1D534BBC00C39913 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3E433A6F1D534BBC00C39913 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3E433A701D534BBC00C39913 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3E433A721D534BBC00C39913 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3E433A731D534BBC00C39913 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3E433A761D534BBC00C39913 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3E433A781D534BBC00C39913 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3E433A7B1D534BBC00C39913 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3E433A7D1D534BBC00C39913 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3E433A9E1D542A7B00C39913 /* Redux.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Redux.h; path = Classes/Redux.h; sourceTree = "<group>"; };
+		3E433A9F1D542A7B00C39913 /* RxAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RxAction.h; path = Classes/RxAction.h; sourceTree = "<group>"; };
+		3E433AA11D542A7B00C39913 /* RxReducer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RxReducer.h; path = Classes/RxReducer.h; sourceTree = "<group>"; };
+		3E433AA31D542A7B00C39913 /* RxState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RxState.h; path = Classes/RxState.h; sourceTree = "<group>"; };
+		3E433AA41D542A7B00C39913 /* RxStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RxStore.h; path = Classes/RxStore.h; sourceTree = "<group>"; };
+		3E433AA51D542A7B00C39913 /* RxStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RxStore.m; path = Classes/RxStore.m; sourceTree = "<group>"; };
+		3E433AA61D542A7B00C39913 /* RxSubscriber.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RxSubscriber.h; path = Classes/RxSubscriber.h; sourceTree = "<group>"; };
+		3E433AAA1D542AB600C39913 /* NSArray+Redux.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSArray+Redux.h"; path = "Classes/NSArray+Redux.h"; sourceTree = "<group>"; };
+		3E433AAB1D542AB600C39913 /* NSArray+Redux.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSArray+Redux.m"; path = "Classes/NSArray+Redux.m"; sourceTree = "<group>"; };
+		3E433AB31D546B7E00C39913 /* RTCounterState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RTCounterState.h; path = States/RTCounterState.h; sourceTree = "<group>"; };
+		3E433AB41D546B7E00C39913 /* RTCounterState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RTCounterState.m; path = States/RTCounterState.m; sourceTree = "<group>"; };
+		3E433AB61D546C6000C39913 /* RTCounterReducer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RTCounterReducer.h; path = Reducers/RTCounterReducer.h; sourceTree = "<group>"; };
+		3E433AB71D546C6000C39913 /* RTCounterReducer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RTCounterReducer.m; path = Reducers/RTCounterReducer.m; sourceTree = "<group>"; };
+		3E433AB91D546DF200C39913 /* RTCounterAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RTCounterAction.h; path = Actions/RTCounterAction.h; sourceTree = "<group>"; };
+		3E433ABA1D546DF200C39913 /* RTCounterAction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RTCounterAction.m; path = Actions/RTCounterAction.m; sourceTree = "<group>"; };
+		3E433ABC1D54722900C39913 /* RTAppState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RTAppState.h; path = States/RTAppState.h; sourceTree = "<group>"; };
+		3E433ABD1D54722900C39913 /* RTAppState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RTAppState.m; path = States/RTAppState.m; sourceTree = "<group>"; };
+		3E433ABF1D54730D00C39913 /* RTAppReducer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RTAppReducer.h; path = Reducers/RTAppReducer.h; sourceTree = "<group>"; };
+		3E433AC01D54730D00C39913 /* RTAppReducer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RTAppReducer.m; path = Reducers/RTAppReducer.m; sourceTree = "<group>"; };
+		3E433AC41D547DB800C39913 /* RTLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RTLogger.h; path = Middlewares/RTLogger.h; sourceTree = "<group>"; };
+		3E433AC51D547DB800C39913 /* RTLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RTLogger.m; path = Middlewares/RTLogger.m; sourceTree = "<group>"; };
+		3E433AC71D54809D00C39913 /* RTRecorder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RTRecorder.h; path = Middlewares/RTRecorder.h; sourceTree = "<group>"; };
+		3E433AC81D54809D00C39913 /* RTRecorder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RTRecorder.m; path = Middlewares/RTRecorder.m; sourceTree = "<group>"; };
+		3E433ACD1D54AC0D00C39913 /* RxMiddleware.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RxMiddleware.h; path = Classes/RxMiddleware.h; sourceTree = "<group>"; };
+		3E46E8D81D561BF400E2917F /* NSDictionary+Redux.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSDictionary+Redux.h"; path = "Classes/NSDictionary+Redux.h"; sourceTree = "<group>"; };
+		3E46E8D91D561BF400E2917F /* NSDictionary+Redux.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSDictionary+Redux.m"; path = "Classes/NSDictionary+Redux.m"; sourceTree = "<group>"; };
+		3E46E8DD1D5623C600E2917F /* Macros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Macros.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3E433A661D534BBC00C39913 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3E433A601D534BBC00C39913 = {
+			isa = PBXGroup;
+			children = (
+				3E433A831D534BC300C39913 /* Classes */,
+				3E433A6B1D534BBC00C39913 /* Redux */,
+				3E433A6A1D534BBC00C39913 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3E433A6A1D534BBC00C39913 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3E433A691D534BBC00C39913 /* Redux.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3E433A6B1D534BBC00C39913 /* Redux */ = {
+			isa = PBXGroup;
+			children = (
+				3E46E8DC1D5623AD00E2917F /* Util */,
+				3E433AC31D547D8600C39913 /* Middlewares */,
+				3E433AAF1D546A6200C39913 /* States */,
+				3E433AAE1D546A5C00C39913 /* Reducers */,
+				3E433AAD1D546A4C00C39913 /* Actions */,
+				3E433A6F1D534BBC00C39913 /* AppDelegate.h */,
+				3E433A701D534BBC00C39913 /* AppDelegate.m */,
+				3E433A721D534BBC00C39913 /* ViewController.h */,
+				3E433A731D534BBC00C39913 /* ViewController.m */,
+				3E433A751D534BBC00C39913 /* Main.storyboard */,
+				3E433A781D534BBC00C39913 /* Assets.xcassets */,
+				3E433A7A1D534BBC00C39913 /* LaunchScreen.storyboard */,
+				3E433A7D1D534BBC00C39913 /* Info.plist */,
+				3E433A6C1D534BBC00C39913 /* Supporting Files */,
+			);
+			path = Redux;
+			sourceTree = "<group>";
+		};
+		3E433A6C1D534BBC00C39913 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3E433A6D1D534BBC00C39913 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3E433A831D534BC300C39913 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				3E433A9C1D542A6800C39913 /* Core */,
+				3E433A9D1D542A6F00C39913 /* Util */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		3E433A9C1D542A6800C39913 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				3E433A9E1D542A7B00C39913 /* Redux.h */,
+				3E433A9F1D542A7B00C39913 /* RxAction.h */,
+				3E433AA11D542A7B00C39913 /* RxReducer.h */,
+				3E433AA31D542A7B00C39913 /* RxState.h */,
+				3E433AA41D542A7B00C39913 /* RxStore.h */,
+				3E433AA51D542A7B00C39913 /* RxStore.m */,
+				3E433AA61D542A7B00C39913 /* RxSubscriber.h */,
+				3E433ACD1D54AC0D00C39913 /* RxMiddleware.h */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		3E433A9D1D542A6F00C39913 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				3E433AAA1D542AB600C39913 /* NSArray+Redux.h */,
+				3E433AAB1D542AB600C39913 /* NSArray+Redux.m */,
+				3E46E8D81D561BF400E2917F /* NSDictionary+Redux.h */,
+				3E46E8D91D561BF400E2917F /* NSDictionary+Redux.m */,
+			);
+			name = Util;
+			sourceTree = "<group>";
+		};
+		3E433AAD1D546A4C00C39913 /* Actions */ = {
+			isa = PBXGroup;
+			children = (
+				3E433AB91D546DF200C39913 /* RTCounterAction.h */,
+				3E433ABA1D546DF200C39913 /* RTCounterAction.m */,
+			);
+			name = Actions;
+			sourceTree = "<group>";
+		};
+		3E433AAE1D546A5C00C39913 /* Reducers */ = {
+			isa = PBXGroup;
+			children = (
+				3E433AB61D546C6000C39913 /* RTCounterReducer.h */,
+				3E433AB71D546C6000C39913 /* RTCounterReducer.m */,
+				3E433ABF1D54730D00C39913 /* RTAppReducer.h */,
+				3E433AC01D54730D00C39913 /* RTAppReducer.m */,
+			);
+			name = Reducers;
+			sourceTree = "<group>";
+		};
+		3E433AAF1D546A6200C39913 /* States */ = {
+			isa = PBXGroup;
+			children = (
+				3E433AB31D546B7E00C39913 /* RTCounterState.h */,
+				3E433AB41D546B7E00C39913 /* RTCounterState.m */,
+				3E433ABC1D54722900C39913 /* RTAppState.h */,
+				3E433ABD1D54722900C39913 /* RTAppState.m */,
+			);
+			name = States;
+			sourceTree = "<group>";
+		};
+		3E433AC31D547D8600C39913 /* Middlewares */ = {
+			isa = PBXGroup;
+			children = (
+				3E433AC41D547DB800C39913 /* RTLogger.h */,
+				3E433AC51D547DB800C39913 /* RTLogger.m */,
+				3E433AC71D54809D00C39913 /* RTRecorder.h */,
+				3E433AC81D54809D00C39913 /* RTRecorder.m */,
+			);
+			name = Middlewares;
+			sourceTree = "<group>";
+		};
+		3E46E8DC1D5623AD00E2917F /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				3E46E8DD1D5623C600E2917F /* Macros.h */,
+			);
+			name = Util;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3E433A681D534BBC00C39913 /* Redux */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3E433A801D534BBC00C39913 /* Build configuration list for PBXNativeTarget "Redux" */;
+			buildPhases = (
+				3E433A651D534BBC00C39913 /* Sources */,
+				3E433A661D534BBC00C39913 /* Frameworks */,
+				3E433A671D534BBC00C39913 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Redux;
+			productName = Redux;
+			productReference = 3E433A691D534BBC00C39913 /* Redux.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3E433A611D534BBC00C39913 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = Rx;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = redeight;
+				TargetAttributes = {
+					3E433A681D534BBC00C39913 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 3E433A641D534BBC00C39913 /* Build configuration list for PBXProject "Redux" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3E433A601D534BBC00C39913;
+			productRefGroup = 3E433A6A1D534BBC00C39913 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3E433A681D534BBC00C39913 /* Redux */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3E433A671D534BBC00C39913 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E433A7C1D534BBC00C39913 /* LaunchScreen.storyboard in Resources */,
+				3E433A791D534BBC00C39913 /* Assets.xcassets in Resources */,
+				3E433A771D534BBC00C39913 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3E433A651D534BBC00C39913 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E433A741D534BBC00C39913 /* ViewController.m in Sources */,
+				3E433ABE1D54722900C39913 /* RTAppState.m in Sources */,
+				3E433AA91D542A7B00C39913 /* RxStore.m in Sources */,
+				3E433ABB1D546DF200C39913 /* RTCounterAction.m in Sources */,
+				3E433AB51D546B7E00C39913 /* RTCounterState.m in Sources */,
+				3E433AC61D547DB800C39913 /* RTLogger.m in Sources */,
+				3E433A711D534BBC00C39913 /* AppDelegate.m in Sources */,
+				3E433AB81D546C6000C39913 /* RTCounterReducer.m in Sources */,
+				3E433A6E1D534BBC00C39913 /* main.m in Sources */,
+				3E433AC91D54809D00C39913 /* RTRecorder.m in Sources */,
+				3E433AC11D54730D00C39913 /* RTAppReducer.m in Sources */,
+				3E46E8DA1D561BF400E2917F /* NSDictionary+Redux.m in Sources */,
+				3E433AAC1D542AB600C39913 /* NSArray+Redux.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3E433A751D534BBC00C39913 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3E433A761D534BBC00C39913 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3E433A7A1D534BBC00C39913 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3E433A7B1D534BBC00C39913 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3E433A7E1D534BBC00C39913 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3E433A7F1D534BBC00C39913 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3E433A811D534BBC00C39913 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Redux/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.redeight.Redux;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3E433A821D534BBC00C39913 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Redux/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.redeight.Redux;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3E433A641D534BBC00C39913 /* Build configuration list for PBXProject "Redux" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E433A7E1D534BBC00C39913 /* Debug */,
+				3E433A7F1D534BBC00C39913 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3E433A801D534BBC00C39913 /* Build configuration list for PBXNativeTarget "Redux" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E433A811D534BBC00C39913 /* Debug */,
+				3E433A821D534BBC00C39913 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3E433A611D534BBC00C39913 /* Project object */;
+}
